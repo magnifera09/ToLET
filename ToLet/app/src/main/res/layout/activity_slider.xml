@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hpe.tolet.SliderActivity">
+
+<ViewFlipper
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/viewFlipper">
+    <ImageView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/one"/>
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/two"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/three"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/four"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView7"
+        android:scaleType="centerCrop"
+        android:src="@drawable/five"/>
+
+
+
+</ViewFlipper>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="205sp"
+        android:layout_height="50sp"
+        android:text="Skip"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:alpha="0.75"
+        android:background="#70FF0000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:text="Next"
+        android:backgroundTint="#ffffff"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:id="@+id/prev"
+        android:alpha="0.75"
+        android:background="#70FF0000"
+        android:layout_width="205sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/next"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true"
+    android:id="@+id/card_view"
+    android:layout_margin="5dp"
+
+    >
+    <RelativeLayout
+        android:id="@+id/relv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:layout_marginRight="2dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+          android:adjustViewBounds="true"
+            android:src="@drawable/buy"
+            android:id="@+id/ivImage"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Location name"
+            android:id="@+id/txtlocation"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/ivImage"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="price"
+            android:layout_below="@+id/txtlocation"
+            android:id="@+id/txtplotPrice"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/ivImage"
+            android:textColor="#666"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="plottype"
+            android:layout_below="@+id/txtplotPrice"
+            android:id="@+id/txtplotType"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/ivImage"
+            android:textColor="#666"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Owner"
+            android:layout_below="@+id/txtplotType"
+            android:id="@+id/txtowner"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/ivImage"
+            android:textColor="#666"/>
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Roomates"
+            android:layout_below="@+id/txtowner"
+            android:id="@+id/txtroommates"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/ivImage"
+            android:textColor="#666"/>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

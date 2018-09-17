@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "127954703479",
+    "firebase_url": "https://tolet-2ba81.firebaseio.com",
+    "project_id": "tolet-2ba81",
+    "storage_bucket": "tolet-2ba81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127954703479:android:06e6e726e2a21b1a",
+        "android_client_info": {
+          "package_name": "com.hpe.tolet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127954703479-p0l4gupo79u2u0552usbasei9gq1t4f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hpe.tolet",
+            "certificate_hash": "4c0a45b35ec4de7cbf081a416b3583759039e304"
+          }
+        },
+        {
+          "client_id": "127954703479-093dg936h2kq6fpijtrm49682o268blg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTZ6fpFz2M_e7lIEv6Xk9t2GOXiJoxVo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127954703479-093dg936h2kq6fpijtrm49682o268blg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

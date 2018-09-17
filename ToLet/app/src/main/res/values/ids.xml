@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="showSnackbarButton" type="id" />
+    <item name="coordinatorLayout" type="id" />
+    <item name="search" type="id">search</item>
+    <item name="score" type="id">score</item>
+</resources>

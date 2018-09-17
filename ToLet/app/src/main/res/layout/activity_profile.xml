@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7c7c7c"
+    >
+    <ImageView
+
+        android:layout_marginBottom="20dp"
+        android:id="@+id/prof_img1"
+        android:src="@drawable/babyimg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <TextView
+
+        android:layout_below="@id/prof_img1"
+        android:id="@+id/profile"
+        android:text="Profile"
+        android:textColor="#7c7"
+        android:gravity="center_horizontal"
+        style="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="28sp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:text="Email:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    
+    <TextView
+
+        android:textSize="24sp"
+        android:layout_toEndOf="@+id/prof"
+        android:layout_below="@id/profile"
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hpe.tolet">
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tolet"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".SliderActivity" />
+        <activity android:name=".LoginActivityOfTolet" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".PostAdModule" />
+        <activity android:name=".SearchRentModule" />
+        <activity android:name=".SearchRoomatesModule" />
+        <activity android:name=".SignUpModule" />
+        <activity android:name=".IconTextTabsActivity"/>
+
+
+
+
+        <activity android:name=".PostTypeChooser"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert"
+            android:parentActivityName=".IconTextTabsActivity"/>
+        <activity android:name=".PostSellModule" />
+        <activity android:name=".Fragments.ItemDetailView" />
+        <activity android:name=".Google.GoogleActivity" />
+        <activity
+            android:name=".Wishlist"
+            android:parentActivityName=".IconTextTabsActivity" />
+        <activity
+            android:name=".profile"
+            android:theme="@style/Theme.AppCompat.Dialog.Alert"
+            android:parentActivityName=".IconTextTabsActivity" />
+        <activity
+            android:name=".TermActivity"
+            android:parentActivityName=".IconTextTabsActivity" />
+        <activity
+            android:name=".SearchResultsActivity"
+            android:label="@string/title_activity_search_results">
+
+            <!--
+            to identify this activity as "searchable"
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            -->
+
+        </activity>
+        <activity android:name=".WishData.MainActivity2"></activity>
+    </application>
+
+</manifest>
